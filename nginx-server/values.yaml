@@ -1,0 +1,7 @@
+kubernetesClusterDomain: cluster.local
+nginxDeployment:
+  nginx:
+    image:
+      repository: nginx
+      tag: 1.16.1
+  replicas: 2
