@@ -4,4 +4,4 @@ nginxDeployment:
     image:
       repository: nginx
       tag: 1.16.1
-  replicas: 2
+  replicas: 4
